@@ -1,0 +1,136 @@
+.header {
+  color: darkblue;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: xx-large;
+  width: 100%;
+  transform: translateX(-50%);
+  padding-left: 15rem;
+}
+table {
+  text-align: center;
+}
+.head {
+  color: darkblue;
+  text-decoration: underline;
+}
+.links {
+  text-align: left;
+}
+body {
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 200px;
+  position: relative;
+  margin-left: 0px;
+  top: 0px;
+  left: 0px;
+  padding: 1rem;
+  
+}
+table {
+  text-align: center;
+}
+#footer {
+  background-color: lightgray;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0;
+  width: 100%;
+  color: darkblue;
+  text-align: center;
+}
+#inhalt {
+  width: 100%;
+  max-width: 1024px;
+  text-align: center;
+  margin: 0;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+#navi {
+  display: flex;
+  background-color: lightgray;
+  align-items: center;
+}
+#navbar ul {
+  margin-right: 4rem;
+  display: -webkit-inline-box;
+}
+#navbar ul li {
+  list-style-type: none;
+  margin-left: 2rem;
+}
+@media (max-width: 600px) {
+  #navi {
+    display: block;
+    width: 100%;
+    background-color: lightgray;
+    position: fixed;
+  }
+  .header {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    margin-top: 0;
+    padding-left: 9%;
+  }
+  .logo {
+    display: none;
+  }
+  #navbar ul {
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 90px;
+  }
+  .headd {
+    padding-top: 120px;
+    margin-top: 0px;
+    color: darkblue;
+    text-decoration: underline;
+  }
+  .links {
+    padding-top: 120px;
+    margin-top: 0px;
+  }
+}
+@media (min-width: 600px) and (max-width: 745px) {
+  #navbar ul {
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+}
+/* ...................................... */
+/* Style für modal Fenster */
+.modal {display: none; background-color:gray; ; position: absolute; width: 100%; height: 100%;};
+.modal-content  { width: 100%; height: 100%;
+background-color: gray; display: inline-block;
+}
+.logo-container{
+  height: 300px;
+      width: 290px;
+      border-radius: 200px;
+      display: inline-block;
+  }
+
+h2{
+text-align: middle; margin-top: 0; color: darkblue;
+}
+.close{
+  color: darkblue;
+  text-align: right;
+  font-size: xxx-large;
+  display: block;
+}
