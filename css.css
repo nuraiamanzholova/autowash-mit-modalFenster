@@ -31,6 +31,7 @@ body {
   top: 0px;
   left: 0px;
   padding: 1rem;
+  z-index: 1;
   
 }
 table {
@@ -45,11 +46,12 @@ table {
   color: darkblue;
   text-align: center;
 }
-#inhalt {
-  width: 100%;
+.inhalt {
+  width: 100%; 
   max-width: 1024px;
   text-align: center;
   margin: 0;
+  opacity: 0.8;
 }
 
 table {
@@ -114,7 +116,7 @@ table {
 }
 /* ...................................... */
 /* Style für modal Fenster */
-.modal {display: none; background-color:gray; ; position: absolute; width: 100%; height: 100%;};
+.modal {display: none;  position: absolute; width: 100%; height: 100%; background-color: gray};
 .modal-content  { width: 100%; height: 100%;
 background-color: gray; display: inline-block;
 }
@@ -122,15 +124,20 @@ background-color: gray; display: inline-block;
   height: 300px;
       width: 290px;
       border-radius: 200px;
-      display: inline-block;
+      position: absolute;
+      top: 70px;
+     text-align: end; z-index: 1;
   }
 
-h2{
-text-align: middle; margin-top: 0; color: darkblue;
+.logotitle{
+margin-top: 0; color: red;  z-index: 1; background-color: blue; position: relative;
 }
 .close{
-  color: darkblue;
+  color: red;
   text-align: right;
   font-size: xxx-large;
-  display: block;
+  top: -15px;
+  position: absolute;
+  right:0 ; 
+  z-index: 2;
 }
