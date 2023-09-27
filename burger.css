@@ -24,7 +24,7 @@
   height: 2px;
   opacity: 1;
   position: absolute;
-  transition: 0.3s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 #burger-menu span:before,
 #burger-menu span:after {
