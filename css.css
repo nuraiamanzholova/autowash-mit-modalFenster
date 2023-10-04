@@ -141,6 +141,22 @@ table {
     margin-right: auto;
     z-index: 2;
     border-radius: 150px;
+    animation-name: logocarwash;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    border:  solid gray; 
+  }
+  @keyframes  logocarwash{
+0%{border-color: blueviolet;width: 290px; height: 145px; border-radius: 50%;}
+25%{border-color:brown;height: 300px; width: 300px; border-radius: 0;}
+50%{border-color: gold; border-bottom: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;  }
+75% { border-color: lime;}
+100%{border-color:firebrick;}
   }
 
 .logotitle{
@@ -149,6 +165,17 @@ margin-top: 0; color: red;  z-index: 1; position: relative;
 padding-top: 25px;
 background-color: ivory;
 border-radius: 40px;
+animation-name: logo;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+}
+@keyframes logo {
+  0%{background-color:ivory;transform: scale(1);}
+  25%{background-color:gold;transform: scale(1);}
+  50%{background-color :lightskyblue;}
+  75%{background-color:lightsteelblue}
+  100%{background-color:silver;  border: solid;}
 }
 .close{
   color: red;
@@ -172,4 +199,19 @@ border-radius: 40px;
     border-radius: 50px;
     display: none;
     margin-top: 100px;
+    border-radius: 40px;
+    animation-name: backgroun;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+animation-timing-function:ease-in-out;
+animation-play-state: running;
+animation-direction:alternate;
+   
+}
+@keyframes backgroun {
+0%{transform:rotate(0deg);border: solid; border-color: blue; scale: (1);}
+25%{border: solid; transform:rotate(360deg); background-color:gold; scale: (1.1);}
+50%{border: solid; background-color: red; scale: (1);}
+75%{ border: solid; background-color:  gray; scale: (1);}
+100%{ }
 }

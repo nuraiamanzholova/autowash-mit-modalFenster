@@ -74,13 +74,13 @@
   opacity: 0;
   text-align: center;
   padding-top: 20px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.9s ease-in-out;
 }
 #menu.overlay {
   visibility: visible;
   opacity: 1;
   padding-top: 100px;
-  background: rgb(0, 0, 255);
+  background: gray;
 }
 #menu ul {
   padding: 0;
