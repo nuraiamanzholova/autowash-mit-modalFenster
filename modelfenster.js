@@ -14,4 +14,10 @@ close.addEventListener('click', function() {
     background.style.display = 'none';
 })
 
+background.addEventListener('mouseenter', function () {
+    background.style.backgroundColor = 'gray';
+});
+background.addEventListener('mouseleave', function () {
+    background.style.backgroundColor = 'lightgray';
+});
 });
